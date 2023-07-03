@@ -27,16 +27,18 @@
                 <input type="text" id="name" name="name" placeholder="Your Name" class="form__text-field">
 
                 <div class="form__radio-box">
-                    <input type="radio">
+                    <input type="radio" id="contactChoice1" name="contactMethod">
                     <label for="contactChoice1">Email</label>
-
-                    <input type="radio">
+                
+                    <input type="radio" id="contactChoice2" name="contactMethod">
                     <label for="contactChoice2">Phone</label>
-                </div>
+                </div>       
+
+                <input type="text" id="contactInfo" name="contactInfo" placeholder="Email Address / Phone Number" class="form__text-field">
 
                 <div class="form__check-box">
-                    <input type="checkbox">
-                    <label for="subscribe">Check this box for fun</label>
+                    <input type="checkbox" id="checkedbox">
+                    <label for="checkedbox">Check this box for fun</label>
                 </div>
 
                 <button type="submit" class="form__submit">Submit</button>
